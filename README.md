@@ -7,7 +7,7 @@ This repository contains the source code for my personal portfolio website. The 
 ## Live Site
 You can view the site here:
 
-https://trickyhat9.github.io/updated-portfolio/
+https://trickyhat9.github.io/
 
 ## About the Portfolio
 This portfolio is designed to present my technical background in a way that is structured, interactive, and memorable. The interface uses a retro game-inspired design while still maintaining clarity and performance.

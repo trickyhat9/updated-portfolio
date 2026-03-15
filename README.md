@@ -1,4 +1,4 @@
-# Hunter Gottholm – Portfolio
+# Hunter Gottholm - Portfolio
 
 Cybersecurity | Automation | Systems Engineering
 

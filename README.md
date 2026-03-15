@@ -21,24 +21,6 @@ The goal is to highlight both technical capability and engineering creativity.
 - Systems Reliability and Infrastructure Engineering
 - Enterprise IT Operations and Monitoring
 
-## Experience Highlights
-
-**Corning – AI & Digital Automation Analyst**  
-Building automation and AI-driven workflow solutions using Microsoft Power Platform and Copilot technologies.
-
-**Corning – CSIRT Analyst**  
-Supported the Computer Security Incident Response Team by monitoring alerts, assisting in incident investigations, and analyzing potential security threats.
-
-**Corning – Systems Reliability Engineer Intern**  
-Worked on reliability-focused initiatives aimed at improving operational stability and understanding infrastructure behavior in enterprise environments.
-
-## Certifications
-
-- CompTIA CySA+
-- CompTIA Security+
-- Splunk Core Certified User
-- Splunk Power User
-
 ## Technologies Used
 
 Frontend

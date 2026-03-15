@@ -28,32 +28,6 @@ Frontend
 - CSS
 - JavaScript
 
-Security / Data
-- Splunk
-- Security Monitoring Tools
-- Log Analysis
-
-Automation
-- Microsoft Power Platform
-- Copilot Studio
-- Workflow Automation
-
-## Repository Structure
-
-portfolio/
-│
-├── index.html
-├── about.html
-├── experience.html
-├── skills.html
-├── contact.html
-│
-├── styles.css
-├── script.js
-│
-├── images/
-└── assets/
-
 ## Purpose of This Project
 
 This project demonstrates:

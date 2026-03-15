@@ -5,7 +5,7 @@ Cybersecurity | Automation | Systems Engineering
 This repository contains the source code for my personal portfolio website. The site showcases my experience, technical skills, certifications, and projects in cybersecurity, automation, and enterprise IT systems.
 
 ## Live Site
-If GitHub Pages is enabled, you can view the site here:
+You can view the site here:
 
 https://trickyhat9.github.io/updated-portfolio/
 

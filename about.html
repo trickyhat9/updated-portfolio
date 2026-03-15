@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Hunter Gottholm.">
+    <title>About | Hunter Gottholm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="about">
+    <div id="coinCounter" class="hud-counter" aria-live="polite">Coins: 0</div>
+    <div class="sky-layer" aria-hidden="true"></div>
+    <div class="ground-strip" aria-hidden="true"></div>
+
+    <header class="site-header compact">
+        <div class="brand-lockup">
+            <span class="brand-world">World Map</span>
+            <h1>About Hunter</h1>
+            <p>The save-file screen for background, interests, and what drives the work.</p>
+        </div>
+
+        <nav class="main-nav" aria-label="Primary">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="experience.html">Experience</a>
+            <a class="nav-link is-active" href="about.html">About</a>
+            <a class="nav-link" href="skills.html">Skills</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="story-layout reveal">
+            <div class="story-column">
+                <div class="story-console">
+                    <div class="console-head">Save Data</div>
+                    <p id="about-dialogue" class="console-text"></p>
+                    <button id="about-next" class="pixel-button" type="button">Next Line</button>
+                </div>
+                <div class="bio-card">
+                    <div class="panel-label">Avatar</div>
+                    <img src="avatar_smiling.png" alt="Smiling illustrated avatar of Hunter" class="about-avatar">
+                </div>
+            </div>
+
+            <div class="story-column">
+                <article class="feature-panel">
+                    <div class="panel-label">Core Build</div>
+                    <h2>Security & Systems Mindset</h2>
+                    <p>
+                        Hunter focuses on information security, networking, and operational reliability.
+                    </p>
+                </article>
+
+                <div class="save-grid">
+                    <article class="save-slot">
+                        <span class="save-icon">01</span>
+                        <h3>Security Focus</h3>
+                        <p>Information security, threat detection, and defensive engineering with a focus on protecting enterprise systems.</p>
+                    </article>
+
+                    <article class="save-slot">
+                        <span class="save-icon">02</span>
+                        <h3>Automation & AI</h3>
+                        <p>Building AI-driven automation and Copilot-based solutions that streamline operations and reduce manual work.</p>
+                    </article>
+
+                    <article class="save-slot">
+                        <span class="save-icon">03</span>
+                        <h3>Certifications</h3>
+                        <p>CySA+, Security+, Splunk Core Certified User, and Splunk Power User demonstrating hands-on security and monitoring expertise.</p>
+                    </article>
+
+                    <article class="save-slot">
+                        <span class="save-icon">04</span>
+                        <h3>Technical Toolkit</h3>
+                        <p>Experience across security monitoring, automation, enterprise IT systems, and modern web technologies.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skills and technical toolkit for Hunter Gottholm.">
+    <title>Skills | Hunter Gottholm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="skills">
+    <div id="coinCounter" class="hud-counter" aria-live="polite">Coins: 0</div>
+    <div class="sky-layer" aria-hidden="true"></div>
+    <div class="ground-strip" aria-hidden="true"></div>
+
+    <header class="site-header compact">
+        <div class="brand-lockup">
+            <span class="brand-world">Inventory Screen</span>
+            <h1>Skills & Certifications</h1>
+            <p>The current loadout across languages, tooling, and security-oriented work.</p>
+        </div>
+
+        <nav class="main-nav" aria-label="Primary">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="experience.html">Experience</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link is-active" href="skills.html">Skills</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inventory-grid reveal">
+            <article class="inventory-card">
+                <img src="pythonlogo.png" alt="Python logo">
+                <h3>Python</h3>
+                <p>Scripting, automation, and practical backend utility work.</p>
+            </article>
+            <article class="inventory-card">
+                <img src="jslogo.png" alt="JavaScript logo">
+                <h3>JavaScript</h3>
+                <p>Interactive frontend behavior and site-level product thinking.</p>
+            </article>
+            <article class="inventory-card">
+                <img src="htmllogo.png" alt="HTML logo">
+                <h3>HTML</h3>
+                <p>Structured markup with clearer semantics than the original build had.</p>
+            </article>
+            <article class="inventory-card">
+                <img src="csslogo.png" alt="CSS logo">
+                <h3>CSS</h3>
+                <p>Visual direction, motion, responsive layout, and themed UI systems.</p>
+            </article>
+            <article class="inventory-card">
+                <img src="sqllogo.png" alt="SQL logo">
+                <h3>SQL</h3>
+                <p>Data handling, querying, and foundational database fluency.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="comptia-logo.webp" alt="CompTIA logo">
+                </div>
+                <h3>CompTIA A+</h3>
+                <p>CompTIA certification placeholder card.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="comptia-logo.webp" alt="CompTIA logo">
+                </div>
+                <h3>CompTIA Network+</h3>
+                <p>CompTIA certification placeholder card.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="comptia-logo.webp" alt="CompTIA logo">
+                </div>
+                <h3>CompTIA Security+</h3>
+                <p>CompTIA certification placeholder card.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="comptia-logo.webp" alt="CompTIA logo">
+                </div>
+                <h3>CompTIA CySA+</h3>
+                <p>CompTIA certification placeholder card.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="microsoft-logo.webp" alt="Microsoft logo">
+                </div>
+                <h3>Microsoft SC-300</h3>
+                <p>Microsoft certification placeholder card.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="splunk-logo.webp" alt="Splunk logo">
+                </div>
+                <h3>Splunk Core User</h3>
+                <p>Splunk certification placeholder card.</p>
+            </article>
+            <article class="inventory-card inventory-card-placeholder">
+                <div class="cert-placeholder">
+                    <img src="splunk-logo.webp" alt="Splunk logo">
+                </div>
+                <h3>Splunk Power User</h3>
+                <p>Splunk certification placeholder card.</p>
+            </article>
+        </section>
+
+        <section class="skills-hero reveal">
+            <div class="speech-console">
+                <div class="console-head">Loadout Tips</div>
+                <p id="speech-text" class="console-text"></p>
+            </div>
+            <article class="feature-panel feature-panel-wide">
+                <div class="panel-label">Playstyle</div>
+                <h2>A diverse set of technical skills.</h2>
+                <p>From building AI agents to writing SIEM detection rules, I have touched many domains in IT.</p>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

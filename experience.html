@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience timeline for Hunter Gottholm.">
+    <title>Experience | Hunter Gottholm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="experience">
+    <div id="coinCounter" class="hud-counter" aria-live="polite">Coins: 0</div>
+    <div class="sky-layer" aria-hidden="true"></div>
+    <div class="ground-strip" aria-hidden="true"></div>
+
+    <header class="site-header compact">
+        <div class="brand-lockup">
+            <span class="brand-world">World Map</span>
+            <h1>Experience</h1>
+            <p>Each role is an breakable block.</p>
+        </div>
+
+        <nav class="main-nav" aria-label="Primary">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link is-active" href="experience.html">Experience</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="skills.html">Skills</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feature-panel reveal">
+            <div class="panel-label">How To Play</div>
+            <h2>Hit a block to unlock a stage.</h2>
+            <p>Each reveal uncovers an experience and adds a coin to the run.</p>
+        </section>
+
+        <section class="experience-map reveal">
+            <article class="experience-stage">
+                <button class="question-block" type="button" data-reveal-target="exp-veradigm" aria-controls="exp-veradigm" aria-expanded="false">
+                    <img src="brick.png" alt="">
+                    <span>Reveal</span>
+                </button>
+                <div id="exp-veradigm" class="experience-card">
+                    <img src="veradigm.png" alt="Veradigm logo">
+                    <h3>Network Engineer Intern</h3>
+                    <p class="experience-meta">Veradigm | Raleigh, NC | 4 months</p>
+                    <p>Worked in a networking environment where reliability and communication mattered as much as the technical execution.</p>
+                </div>
+            </article>
+
+            <article class="experience-stage">
+                <button class="question-block" type="button" data-reveal-target="exp-oneit" aria-controls="exp-oneit" aria-expanded="false">
+                    <img src="brick.png" alt="">
+                    <span>Reveal</span>
+                </button>
+                <div id="exp-oneit" class="experience-card">
+                    <img src="oneit.png" alt="UNC Charlotte OneIT logo">
+                    <h3>OneIT Technical Analyst</h3>
+                    <p class="experience-meta">UNC Charlotte | Charlotte, NC | 1 year 8 months</p>
+                    <p>Longer-form support and operations work that built repetition, troubleshooting discipline, and user-facing communication.</p>
+                </div>
+            </article>
+
+            <article class="experience-stage">
+                <button class="question-block" type="button" data-reveal-target="exp-corning" aria-controls="exp-corning" aria-expanded="false">
+                    <img src="brick.png" alt="">
+                    <span>Reveal</span>
+                </button>
+                <div id="exp-corning" class="experience-card experience-card-multi">
+                    <img src="corning.png" alt="Corning logo">
+                    <h3>Corning</h3>
+
+                    <div class="experience-role">
+                        <p class="experience-meta">Systems Reliability Engineer Intern | Concord, NC | 4 months</p>
+                        <p>Worked on reliability initiatives focused on improving operational stability, reducing system friction, and analyzing infrastructure behavior across enterprise environments.</p>
+                    </div>
+
+                    <div class="experience-role">
+                        <p class="experience-meta">CSIRT Analyst | Charlotte, NC | 6 months</p>
+                        <p>Supported the Computer Security Incident Response Team by monitoring security alerts, investigating suspicious activity, and assisting with incident triage and response.</p>
+                    </div>
+
+                    <div class="experience-role">
+                        <p class="experience-meta">AI & Digital Automation Analyst | Charlotte, NC | 4 months (current)</p>
+                        <p>Designing and implementing automation solutions using Microsoft Power Platform and Copilot technologies to streamline workflows and improve operational efficiency.</p>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
